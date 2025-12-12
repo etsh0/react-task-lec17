@@ -1,23 +1,5 @@
 import React, { useState } from "react";
 
-
-// export default function HomePage() {
-
-//   let [userName,setUserName] = useState("") 
-
-//   return (
-//     <>
-//     <div className="task p-5">
-//         <p>Enter Your Name: {userName}</p>
-//         <input type="text" onChange={(e) => {
-//             setUserName(e.target.value)
-//         }} name="" className="border border-gray-400 p-3 rounded-2xl mt-3" />
-//     </div>
-//     </>
-//   );
-// }
-
-
 export default function HomePage() {
 
     let [user, setUser] = useState({
